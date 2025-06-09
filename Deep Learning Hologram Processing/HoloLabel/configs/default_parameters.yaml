@@ -1,0 +1,31 @@
+camera_pixel_size: 3.45
+class_colors:
+  '0': '#ff9900'
+  '1': '#ff9900'
+  EC: '#ff0000'
+  PA: '#ff0000'
+  PDP: '#ffffff'
+  EF: '#ff0000'
+  BS: '#ff0000'
+  CJ: '#ff0000'
+  WBC: '#ff0000'
+  RBC: '#00ff00'
+  EFF: '#ffffff'
+classes:
+- '0'
+- '1'
+- EC
+- PA
+- PDP
+- EF
+- BS
+- CJ
+- WBC
+- RBC
+- EFF
+depth_max: 100.0
+depth_min: 0.0
+index_of_refraction: 1.33
+magnification: 10.0
+step_size: 10.0
+wavelength: 405.0

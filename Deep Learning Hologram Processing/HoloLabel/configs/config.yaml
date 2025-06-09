@@ -1,0 +1,17 @@
+images_path: '/home/user/images'
+labels_path: '/home/user/labels'
+unlabeled_images_path: '/home/user/unlabeled_images'
+labeling_output_path: '/home/user/labeling_queue'
+model_save_path: '/home/user/models/yolov10_initial.pth'
+
+num_classes: 1  # Update when you add more classes
+learning_rate: 0.001
+num_epochs: 20
+batch_size: 16
+
+sampling_strategy: 'uncertainty'  # Options: 'uncertainty', 'clustering'
+top_k: 100  # For uncertainty sampling
+n_clusters: 10  # For clustering
+samples_per_cluster: 10
+
+# Add any additional configuration parameters as needed
