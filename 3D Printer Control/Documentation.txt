@@ -1,0 +1,3 @@
+LinearActuator.zip contains the linear actuator control code to be uploaded to the microcontroller. Can be edited in VSCode after installing the PlatformIO IDE plugin.
+
+MasterCommand is the control script that executes the printing commands and synchronizes the 3D printer and linear actuator controls.
